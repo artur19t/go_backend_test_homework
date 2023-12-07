@@ -9,6 +9,7 @@ var (
 	requiredFiles = []string{"README.md", "main.go", "main_test.go", "go.mod"}
 )
 
+// коментарий - тест
 func TestCheckRequiredFiles(t *testing.T) {
 
 	dir, err := os.Getwd()
