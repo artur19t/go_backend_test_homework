@@ -10,6 +10,7 @@ var (
 )
 
 // коментарий - тест
+//коментарий исправленный
 func TestCheckRequiredFiles(t *testing.T) {
 
 	dir, err := os.Getwd()
